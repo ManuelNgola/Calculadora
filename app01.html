@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Calculadora 1.0.0</title>
+</head>
+<body>
+
+    <div class="corpo">
+        <div class="conteiner">
+            <header>
+                <input type="text" disabled id="ler" placeholder="0">
+            </header>
+    
+            <section id="valores">
+                   
+                <div class="btn-center">
+                    <button onclick="operacao('acao','c')">c</button>
+                    <button onclick="operacao('valor',0)">0</button>
+                    <button onclick="operacao('acao','sqrt')">sqr</button>
+                    <button onclick="operacao('acao','/')">/</button>
+                    <button onclick="operacao('acao','n!')">n!</button>
+                    <button onclick="operacao('acao','sen')">sen</button>
+                    <button onclick="operacao('acao','cos')">cos</button>  
+                    <button onclick="operacao('acao','*')">x</button>
+                    <button onclick="operacao('valor',7)">7</button>
+                    <button onclick="operacao('valor',8)">8</button>
+                    <button onclick="operacao('valor',9)">9</button>
+                    <button onclick="operacao('acao','-')">-</button>  
+                    <button onclick="operacao('valor',4)">4</button>
+                    <button onclick="operacao('valor',5)">5</button>
+                    <button onclick="operacao('valor',6)">6</button>
+                    <button onclick="operacao('acao','+')">+</button>  
+                    <button onclick="operacao('valor',1)">1</button>
+                    <button onclick="operacao('valor',2)">2</button>
+                    <button onclick="operacao('valor',3)">3</button>  
+                    <button onclick="operacao('acao','=')">=</button>
+                    
+                </div>
+                
+            </section>
+            
+        </div>
+    </div>
+    
+
+    <!--script-->
+    <script src="js/script.js">
+       
+    </script>
+</body>
+</html>
